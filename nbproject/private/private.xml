@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/resources/css/default.css</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/serviceForm.xhtml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/statist.xhtml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/entities/Login.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/entities/Employe.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/employeForm.xhtml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/entities/Service.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/util/HibernateUtil.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/ListServiceEmploye.xhtml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/beans/ServiceBean.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/newTemplate.xhtml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/IDao/IDao.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/resources/css/chart.css</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/Test/Test.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/service/LoginaService.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/login.xhtml</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/service/ServiceEmploye.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/resources/css/cssLayout.css</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/service/ServiceService.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/beans/EmployeBean.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/src/java/beans/LoginBean.java</file>
+            <file>file:/C:/Users/SIMO%20LAAOUIBI/Desktop/jsfem/Jsfme/web/newTemplateClient1.xhtml</file>
+        </group>
+    </open-files>
+</project-private>

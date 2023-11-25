@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 nov. 2023, 02:09:31
+    Author     : PC
+*/
+
+/* Add a new style for the fourth series */
+.ui-chart-bar:nth-child(4) {
+    fill: #FF33A1; /* New color for the fourth series */
+}
+
+/* Modify the color of the first series */
+.ui-chart-bar:nth-child(1) {
+    fill: #FF9900; /* New color for the first series */
+}
+
+/* Add additional styles or modifications as needed */

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <title>PrimeFaces</title>
+            </f:facet>
+        </h:head>
+        <style>
+            .centered-panel {
+                text-align: center;
+
+            }
+        </style>
+
+        <h:body>
+
+            <p:layout fullPage="true">
+
+                <p:layoutUnit position="north" size="100" resizable="true" closable="true" collapsible="true">
+                    <h:form id ="form1">
+                        <p:panelGrid columns="4">
+                            <p:clock pattern="dd/MM/yyyy" />
+
+                        </p:panelGrid>
+                    </h:form>
+                </p:layoutUnit>
+
+                <p:layoutUnit position="south" size="100" closable="true" collapsible="true">
+                   Footer
+                </p:layoutUnit>
+
+                <p:layoutUnit position="west" size="250" header="Menu" collapsible="true">
+                    <h:form id="form2">
+                        <p:menu>
+                            <p:submenu label="Navigations">
+                                <p:menuitem value="Service" outcome="/serviceForm.xhtml" icon="ui-icon-star"/>
+                                <p:menuitem value="Employe" outcome="/employeForm.xhtml" icon="ui-icon-star"/>
+                                <p:menuitem value="Recherche" outcome="/statist.xhtml" icon="ui-icon-star"/>
+                                
+                               <p:menuitem value="Statistic" outcome="/statist.xhtml" icon="ui-icon-star"/>
+                            </p:submenu>
+                        </p:menu> 
+                    </h:form>
+                </p:layoutUnit>
+
+
+                <p:layoutUnit position="center">
+                    <h:form>
+                        <h3 style="margin-top:0">List des services</h3>
+                        <p:tree value="#{serviceBean.root}" var="node">
+                            <p:treeNode>
+                                <h:outputText value="#{node}" />
+                            </p:treeNode>
+                        </p:tree>
+
+
+                    </h:form>
+                </p:layoutUnit>
+
+            </p:layout>
+
+        </h:body>
+
+    </f:view>
+</html>

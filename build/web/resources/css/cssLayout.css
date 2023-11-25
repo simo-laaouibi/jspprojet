@@ -1,0 +1,59 @@
+
+#top {
+    position: relative;
+    background-color: #FF5733; /* Change top background color */
+    color: black; /* Change text color */
+    padding: 10px; /* Increase padding */
+    margin: 0px 0px 20px 0px; /* Adjust margin */
+}
+
+#bottom {
+    position: relative;
+    background-color: #33FF57; /* Change bottom background color */
+    padding: 10px; /* Increase padding */
+    margin: 20px 0px 0px 0px; /* Adjust margin */
+}
+
+#left {
+    float: left;
+    background-color: #5733FF; /* Change left background color */
+    padding: 10px; /* Increase padding */
+    width: 180px; /* Adjust width */
+}
+
+#right {
+    float: right;
+    background-color: #FF33A1; /* Change right background color */
+    padding: 10px; /* Increase padding */
+    width: 180px; /* Adjust width */
+}
+
+.center_content {
+    position: relative;
+    background-color: #CCCCCC; /* Change center content background color */
+    padding: 10px; /* Increase padding */
+}
+
+.left_content {
+    background-color: #CCCCCC; /* Change left content background color */
+    padding: 10px; /* Increase padding */
+    margin-left: 200px; /* Adjust margin */
+}
+
+.right_content {
+    background-color: #CCCCCC; /* Change right content background color */
+    padding: 10px; /* Increase padding */
+    margin: 0px 200px 0px 200px; /* Adjust margin */
+}
+
+#top a:link, #top a:visited {
+    color: black; /* Change link color */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover {
+    color: #FF5733; /* Change link color on hover */
+    font-weight: bold;
+    text-decoration: underline;
+}

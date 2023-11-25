@@ -1,0 +1,29 @@
+body {
+    background-color: #F5F5F5; /* Change the background color */
+    font-size: 14px; /* Increase the font size */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Change the font family */
+    color: #333333; /* Change the text color */
+    margin: 20px; /* Adjust the margin */
+}
+
+h1 {
+    font-family: "Arial", sans-serif; /* Change the font family for h1 */
+    border-bottom: 2px solid #CCCCCC; /* Change the border color and thickness */
+    font-size: 20px; /* Increase the font size for h1 */
+    font-weight: normal; /* Set the font weight to normal */
+    margin: 0 0 10px 0; /* Adjust margin */
+    padding: 0; /* Remove padding */
+    color: #FF0000; /* Change the text color for h1 */
+}
+
+a:link, a:visited {
+    color: #0077CC; /* Change the link color */
+    font-weight: normal; /* Set the font weight to normal */
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+    color: #005580; /* Change the link color on hover */
+    font-weight: bold; /* Set the font weight to bold on hover */
+    text-decoration: underline;
+}
